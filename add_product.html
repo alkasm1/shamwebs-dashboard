@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>إضافة منتج جديد - Sham Webs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="add-product">
+    <h2>إضافة منتج جديد</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="name">اسم المنتج:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="description">الوصف:</label>
+      <textarea id="description" name="description" rows="4"></textarea>
+
+      <label for="price">السعر (ليرة سورية):</label>
+      <input type="number" id="price" name="price" required>
+
+      <label for="quantity">الكمية:</label>
+      <input type="number" id="quantity" name="quantity" required>
+
+      <label for="category">الفئة:</label>
+      <select id="category" name="category">
+        <option value="منزلي">منزلي</option>
+        <option value="إلكترونيات">إلكترونيات</option>
+        <option value="ملابس">ملابس</option>
+        <!-- فئات إضافية حسب الحاجة -->
+      </select>
+
+      <label for="image">صورة المنتج:</label>
+      <input type="file" id="image" name="image" accept="image/*">
+
+      <button type="submit">إضافة المنتج</button>
+    </form>
+  </section>
+
+</body>
+</html>

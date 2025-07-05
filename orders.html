@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الطلبات الواردة - Sham Webs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="dashboard-header">
+    <h1>📦 الطلبات الواردة</h1>
+    <nav>
+      <a href="index.html">🏠 لوحة التحكم</a>
+      <a href="add-product.html">➕ إضافة منتج</a>
+      <a href="referrals.html">🎯 الإحالات</a>
+      <a href="../login.html">🔒 تسجيل الخروج</a>
+    </nav>
+  </header>
+
+  <section class="orders-section">
+    <h2>قائمة الطلبات</h2>
+    <table class="orders-table">
+      <thead>
+        <tr>
+          <th>المنتج</th>
+          <th>العميل</th>
+          <th>الكمية</th>
+          <th>الحالة</th>
+          <th>تاريخ الطلب</th>
+          <th>إجراء</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>كرسي خشبي</td>
+          <td>عمار الأحمد</td>
+          <td>2</td>
+          <td><span class="status new">جديد</span></td>
+          <td>2025-07-05</td>
+          <td><button>تأكيد</button></td>
+        </tr>
+        <tr>
+          <td>طاولة مطبخ</td>
+          <td>سما حيدر</td>
+          <td>1</td>
+          <td><span class="status done">مكتمل</span></td>
+          <td>2025-07-04</td>
+          <td><button disabled>تم</button></td>
+        </tr>
+        <!-- المزيد حسب البيانات -->
+      </tbody>
+    </table>
+  </section>
+
+  <footer class="dashboard-footer">
+    <p>© Sham Webs - لوحة التاجر 2025</p>
+  </footer>
+
+</body>
+</html>
